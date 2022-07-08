@@ -1,10 +1,10 @@
 import React from "react";
 import './style.css'
-import ProjectC from "./ProjectC";
+
 
 
 const Project = ({ projectItem }) => {
-    const { name, description, skills, github, linkedIn } = projectItem;
+    const { name, description, skills, github } = projectItem;
 
     return (
         <>

@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import { BrowserRouter, Router ,Routes ,Route } from 'react-router-dom';
+import { BrowserRouter ,Routes ,Route } from 'react-router-dom';
 import Header  from './Header/Header';
 import Homepage from './Header/HomePage/HomePage';
 
