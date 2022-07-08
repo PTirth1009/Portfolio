@@ -1,0 +1,21 @@
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+
+.projectContainer {
+    display: flex;
+    align-items: center;
+   flex-wrap: wrap;
+    max-width: 1100 px;
+    gap: 15px 75px;
+    margin: 0 auto;
+}
+
+.card {
+    margin-top: 25px;
+    width: 25%;
+    margin-left: 35px;
+}
+

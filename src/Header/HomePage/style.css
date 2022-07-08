@@ -1,0 +1,30 @@
+.main{
+  display: flex;
+  align-items: center;
+  flex-direction: column ;
+  margin-top: 75px;
+  font-style: bold;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  
+}
+
+.main h1{
+    font-size: 4rem;
+}
+
+.desc{
+    margin-top: 15px;
+    width: 600px    
+}
+
+.button{
+   align-items: center;
+   justify-content: space-between;
+   margin-top: 2rem;
+   
+}
+
+.link{
+    text-decoration: none;
+    margin-right: 20px;
+}

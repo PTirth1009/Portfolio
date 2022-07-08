@@ -1,0 +1,42 @@
+.cn{
+    margin-top: 105px;
+    font-size: calc(1.375rem + 1.5vw);       
+}
+.dev{
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.btnn{
+    
+    cursor: pointer;
+    padding: 0.8em 1.4em;
+    font-weight: 500;
+    font-size: .9rem;
+    text-transform: lowercase;
+    transition: -webkit-transform .2s ease-in-out;
+    transition: transform .2s ease-in-out;
+    transition: transform .2s ease-in-out,-webkit-transform .2s ease-in-out;
+    margin-left: 50px;
+    margin-right: 45px;
+    
+    
+}
+.lk{
+    text-decoration: none;
+    align-items: center;
+    justify-content: center; 
+    margin-bottom: 50px;
+}
+
+
+
+.btnn-outline{
+    border: 2px solid black;
+    border-radius: 15px;
+    position: relative;  
+    overflow: hidden; 
+    z-index: 1
+}
