@@ -25,20 +25,34 @@ const projectData = [{
          github:"https://github.com/",
          linkedIn:"https://www.linkedin.com/"
      },
-    //  {   id: 4 ,
-    //      name:"Project 4",
-    //  description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
-    //      skills:['Css','JavaScript','React'],
-    //      github:"https://github.com/",
-    //      linkedIn:"https://www.linkedin.com/"
-    //  }
+      {   id: 4 ,
+          name:"Project 4",
+      description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+          skills:['Css','JavaScript','React'],
+          github:"https://github.com/",
+          linkedIn:"https://www.linkedin.com/"
+      },
+      {   id: 4 ,
+        name:"Project 4",
+    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+        skills:['Css','JavaScript','React'],
+        github:"https://github.com/",
+        linkedIn:"https://www.linkedin.com/"
+    },
+    {   id: 4 ,
+        name:"Project 4",
+    description:"Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam",
+        skills:['Css','JavaScript','React'],
+        github:"https://github.com/",
+        linkedIn:"https://www.linkedin.com/"
+    }
 ];
 
-const ProjectC = () => {
+const ProjectC = (id) => {
     return (
         <>
             <h1 className="text-primary">Projects</h1>
-            <div className="projectContainer">
+            <div className="projectContainer" key={id} >
                 {
                     projectData.map(projectItem => {
                         return <Project projectItem={projectItem} />
